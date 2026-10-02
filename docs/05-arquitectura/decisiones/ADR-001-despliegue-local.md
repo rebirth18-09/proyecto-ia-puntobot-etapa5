@@ -2,7 +2,7 @@
 
 **Fecha:** 2026-10-01
 **Estado:** aceptada
-**Decidido por:** los tres integrantes
+**Decidido por:** Ricardo José Romero Blandón; Josias Beeri Zeledón Pastrán; Pablo Joshua Castro
 
 ## Contexto
 

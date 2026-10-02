@@ -1,5 +1,14 @@
 # Propuesta de proyecto: ficha del equipo
 
+## Equipo
+
+- Ricardo José Romero Blandón
+- Josias Beeri Zeledón Pastrán
+- Pablo Joshua Castro
+
+Docente: Norman Ariel Gutiérrez Hernández.
+
+
 Etapa 5 · Arquitectura del sistema de IA
 
 | Campo | Pregunta que responde | PuntoBot |

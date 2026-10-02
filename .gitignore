@@ -1,6 +1,7 @@
-# datos y modelos
+# Datos y artefactos entrenados
 data/*
 !data/.gitkeep
+!data/README.md
 *.csv
 *.jpg
 *.png
@@ -8,15 +9,14 @@ data/*
 *.h5
 *.keras
 *.joblib
-# Etapa 3: lote de prueba sintetico (no contiene datos reales)
-!data/raw/
-!data/raw/consultas_prueba_sintetica.csv
-# entorno
+# Entorno y credenciales
 .venv/
 __pycache__/
+*.pyc
 .ipynb_checkpoints/
 .env
-# editor y sistema
+.env.*
+# Editor y sistema
 .vscode/
 .DS_Store
 Thumbs.db

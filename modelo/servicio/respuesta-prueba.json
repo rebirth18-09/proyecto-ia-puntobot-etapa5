@@ -1,0 +1,16 @@
+{
+  "modelo_version": "contrato-demo-v0.5",
+  "probabilidades": {
+    "consulta_stock": 0.82,
+    "consulta_precio": 0.09,
+    "consulta_ultima_venta": 0.05,
+    "otra": 0.04
+  },
+  "producto_texto": "paracetamol",
+  "candidatos": [
+    {
+      "nombre": "paracetamol",
+      "similitud": 0.98
+    }
+  ]
+}
