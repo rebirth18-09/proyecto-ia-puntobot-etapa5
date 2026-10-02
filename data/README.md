@@ -1,0 +1,1 @@
+Los datos y el notebook de preparación están en la [etapa 3](https://github.com/rebirth18-09/proyecto-ia-puntobot). El lote disponible es sintético; no representa consultas reales recolectadas en la farmacia.

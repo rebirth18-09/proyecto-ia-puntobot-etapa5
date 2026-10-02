@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1750" height="1330" viewBox="0 0 1750 1330" font-family="DejaVu Sans, Verdana, Arial, sans-serif">
+<rect width="1750" height="1330" fill="#ffffff"/>
+<text x="30" y="46" font-size="24" font-weight="bold" fill="#0B3C6B">C4 · Nivel 2 — Contenedores de PuntoBot (despliegue LOCAL)</text>
+<rect x="30" y="350" width="1300" height="710" rx="16" fill="none" stroke="#444" stroke-width="2.5" stroke-dasharray="12 8"/>
+<text x="50" y="382" font-size="16" font-weight="bold" fill="#333">Red local de Punto Farma · PC de la farmacia (todo se ejecuta aquí, sin internet requerido)</text>
+<circle cx="460.0" cy="110" r="36" fill="#08427B" stroke="#052E56" stroke-width="2.5"/>
+<rect x="290" y="150" width="340" height="120" rx="16" fill="#08427B" stroke="#052E56" stroke-width="2.5"/>
+<text x="460.0" y="184" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">Vendedor</text>
+<text x="460.0" y="209" font-size="14" fill="#e4edf8" text-anchor="middle">[Persona]</text>
+<text x="460.0" y="235" font-size="15" fill="#fff" text-anchor="middle">Atiende en el mostrador y</text>
+<text x="460.0" y="255" font-size="15" fill="#fff" text-anchor="middle">pregunta por un producto</text>
+<circle cx="880.0" cy="110" r="36" fill="#08427B" stroke="#052E56" stroke-width="2.5"/>
+<rect x="710" y="150" width="340" height="120" rx="16" fill="#08427B" stroke="#052E56" stroke-width="2.5"/>
+<text x="880.0" y="184" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">Encargado de inventario</text>
+<text x="880.0" y="209" font-size="14" fill="#e4edf8" text-anchor="middle">[Persona]</text>
+<text x="880.0" y="235" font-size="15" fill="#fff" text-anchor="middle">Revisa existencias y</text>
+<text x="880.0" y="255" font-size="15" fill="#fff" text-anchor="middle">movimientos de productos</text>
+<circle cx="1550.0" cy="110" r="36" fill="#08427B" stroke="#052E56" stroke-width="2.5"/>
+<rect x="1365" y="150" width="370" height="120" rx="16" fill="#08427B" stroke="#052E56" stroke-width="2.5"/>
+<text x="1550.0" y="184" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">Administrador de PuntoBot</text>
+<text x="1550.0" y="209" font-size="14" fill="#e4edf8" text-anchor="middle">[Persona]</text>
+<text x="1550.0" y="235" font-size="15" fill="#fff" text-anchor="middle">Revisa las correcciones y</text>
+<text x="1550.0" y="255" font-size="15" fill="#fff" text-anchor="middle">mantiene el asistente</text>
+<rect x="490" y="400" width="360" height="140" rx="16" fill="#438DD5" stroke="#2E6295" stroke-width="2.5"/>
+<text x="670.0" y="434" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">Módulo de chat</text>
+<text x="670.0" y="459" font-size="14" fill="#e4edf8" text-anchor="middle">[Ventana dentro del sistema de escritorio</text>
+<text x="670.0" y="478" font-size="14" fill="#e4edf8" text-anchor="middle">actual]</text>
+<text x="670.0" y="504" font-size="15" fill="#fff" text-anchor="middle">Captura la pregunta, muestra la respuesta</text>
+<text x="670.0" y="524" font-size="15" fill="#fff" text-anchor="middle">y el botón «no era eso»</text>
+<rect x="530" y="650" width="280" height="150" rx="16" fill="#438DD5" stroke="#2E6295" stroke-width="2.5"/>
+<text x="670.0" y="684" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">Backend de PuntoBot</text>
+<text x="670.0" y="709" font-size="14" fill="#e4edf8" text-anchor="middle">[Python + FastAPI]</text>
+<text x="670.0" y="735" font-size="15" fill="#fff" text-anchor="middle">Valida, decide con umbrales,</text>
+<text x="670.0" y="755" font-size="15" fill="#fff" text-anchor="middle">consulta inventario y registra</text>
+<rect x="70" y="650" width="280" height="150" rx="16" fill="#438DD5" stroke="#2E6295" stroke-width="2.5"/>
+<text x="210.0" y="684" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">Servicio del modelo</text>
+<text x="210.0" y="709" font-size="14" fill="#e4edf8" text-anchor="middle">[Python + scikit-learn · API REST]</text>
+<text x="210.0" y="735" font-size="15" fill="#fff" text-anchor="middle">Calcula intención, probabilidades</text>
+<text x="210.0" y="755" font-size="15" fill="#fff" text-anchor="middle">y producto mencionado</text>
+<rect x="980" y="650" width="310" height="150" rx="16" fill="#438DD5" stroke="#2E6295" stroke-width="2.5"/>
+<text x="1135.0" y="684" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">Base de datos de</text>
+<text x="1135.0" y="709" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">PuntoBot</text>
+<text x="1135.0" y="734" font-size="14" fill="#e4edf8" text-anchor="middle">[SQLite]</text>
+<text x="1135.0" y="760" font-size="15" fill="#fff" text-anchor="middle">Consultas, respuestas, versión</text>
+<text x="1135.0" y="780" font-size="15" fill="#fff" text-anchor="middle">del modelo y correcciones</text>
+<rect x="490" y="890" width="360" height="150" rx="16" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="2.5"/>
+<text x="670.0" y="924" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">Sistema de inventario y</text>
+<text x="670.0" y="949" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">facturación</text>
+<text x="670.0" y="974" font-size="14" fill="#e4edf8" text-anchor="middle">[Sistema externo]</text>
+<text x="670.0" y="1000" font-size="15" fill="#fff" text-anchor="middle">Productos, existencias, precios</text>
+<text x="670.0" y="1020" font-size="15" fill="#fff" text-anchor="middle">y ventas (solo lectura)</text>
+<rect x="1390" y="650" width="320" height="150" rx="16" fill="#438DD5" stroke="#2E6295" stroke-width="2.5" stroke-dasharray="10 6"/>
+<text x="1550.0" y="684" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">Entrenamiento del</text>
+<text x="1550.0" y="709" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">modelo</text>
+<text x="1550.0" y="734" font-size="14" fill="#e4edf8" text-anchor="middle">[Notebook Jupyter + scikit-learn]</text>
+<text x="1550.0" y="760" font-size="15" fill="#fff" text-anchor="middle">Corre en la PC del equipo,</text>
+<text x="1550.0" y="780" font-size="15" fill="#fff" text-anchor="middle">no en la farmacia</text>
+<path d="M 460.0,270.0 L 561.0,389.3" fill="none" stroke="#3d3d3d" stroke-width="2.5"/>
+<polygon points="570.0,400.0 566.7,384.5 555.2,394.2" fill="#3d3d3d"/>
+<path d="M 880.0,270.0 L 779.0,389.3" fill="none" stroke="#3d3d3d" stroke-width="2.5"/>
+<polygon points="770.0,400.0 784.8,394.2 773.3,384.5" fill="#3d3d3d"/>
+<path d="M 634.0,540.0 L 634.0,636.0" fill="none" stroke="#3d3d3d" stroke-width="2.5"/>
+<polygon points="634.0,650.0 641.5,636.0 626.5,636.0" fill="#3d3d3d"/>
+<path d="M 706.0,650.0 L 706.0,554.0" fill="none" stroke="#3d3d3d" stroke-width="2.5"/>
+<polygon points="706.0,540.0 698.5,554.0 713.5,554.0" fill="#3d3d3d"/>
+<path d="M 530.0,725.0 L 364.0,725.0" fill="none" stroke="#3d3d3d" stroke-width="2.5"/>
+<polygon points="350.0,725.0 364.0,732.5 364.0,717.5" fill="#3d3d3d"/>
+<path d="M 810.0,725.0 L 966.0,725.0" fill="none" stroke="#3d3d3d" stroke-width="2.5"/>
+<polygon points="980.0,725.0 966.0,717.5 966.0,732.5" fill="#3d3d3d"/>
+<path d="M 670.0,800.0 L 670.0,876.0" fill="none" stroke="#3d3d3d" stroke-width="2.5"/>
+<polygon points="670.0,890.0 677.5,876.0 662.5,876.0" fill="#3d3d3d"/>
+<path d="M 1550.0,270.0 L 1550.0,636.0" fill="none" stroke="#3d3d3d" stroke-width="2.5"/>
+<polygon points="1550.0,650.0 1557.5,636.0 1542.5,636.0" fill="#3d3d3d"/>
+<path d="M 1290.0,725.0 L 1376.0,725.0" fill="none" stroke="#3d3d3d" stroke-width="2.5" stroke-dasharray="9 7"/>
+<polygon points="1390.0,725.0 1376.0,717.5 1376.0,732.5" fill="#3d3d3d"/>
+<path d="M 1550.0,800.0 L 1550.0,1115.0 L 210.0,1115.0 L 210.0,814.0" fill="none" stroke="#3d3d3d" stroke-width="2.5" stroke-dasharray="9 7"/>
+<polygon points="210.0,800.0 202.5,814.0 217.5,814.0" fill="#3d3d3d"/>
+<rect x="299.0" y="298.0" width="146.0" height="40" fill="#ffffff" fill-opacity="0.92"/>
+<text x="440" y="312" font-size="14" fill="#222222" text-anchor="end">Escribe la pregunta</text>
+<text x="440" y="330" font-size="14" fill="#222222" text-anchor="end">y lee la respuesta</text>
+<rect x="895.0" y="298.0" width="139.7" height="40" fill="#ffffff" fill-opacity="0.92"/>
+<text x="900" y="312" font-size="14" fill="#222222" text-anchor="start">Escribe, lee y</text>
+<text x="900" y="330" font-size="14" fill="#222222" text-anchor="start">corrige respuestas</text>
+<rect x="448.4" y="578.0" width="178.6" height="40" fill="#ffffff" fill-opacity="0.92"/>
+<text x="622" y="592" font-size="14" fill="#222222" text-anchor="end">Pregunta y correcciones</text>
+<text x="622" y="610" font-size="14" fill="#222222" text-anchor="end">[JSON · HTTP local]</text>
+<rect x="713.0" y="578.0" width="179.3" height="40" fill="#ffffff" fill-opacity="0.92"/>
+<text x="718" y="592" font-size="14" fill="#222222" text-anchor="start">Respuesta e id_consulta</text>
+<text x="718" y="610" font-size="14" fill="#222222" text-anchor="start">[JSON · HTTP local]</text>
+<rect x="363.1" y="677.0" width="153.8" height="40" fill="#ffffff" fill-opacity="0.92"/>
+<text x="440" y="691" font-size="14" fill="#222222" text-anchor="middle">Texto de la pregunta</text>
+<text x="440" y="709" font-size="14" fill="#222222" text-anchor="middle">[JSON · HTTP local]</text>
+<rect x="838.8" y="677.0" width="112.4" height="40" fill="#ffffff" fill-opacity="0.92"/>
+<text x="895" y="691" font-size="14" fill="#222222" text-anchor="middle">Registro de la</text>
+<text x="895" y="709" font-size="14" fill="#222222" text-anchor="middle">consulta [SQL]</text>
+<rect x="679.0" y="836.0" width="222.5" height="22" fill="#ffffff" fill-opacity="0.92"/>
+<text x="684" y="850" font-size="14" fill="#222222" text-anchor="start">Consulta de solo lectura [SQL]</text>
+<rect x="1559.0" y="441.0" width="132.6" height="40" fill="#ffffff" fill-opacity="0.92"/>
+<text x="1564" y="455" font-size="14" fill="#222222" text-anchor="start">Entrena y publica</text>
+<text x="1564" y="473" font-size="14" fill="#222222" text-anchor="start">el modelo</text>
+<rect x="1289.7" y="677.0" width="100.5" height="40" fill="#ffffff" fill-opacity="0.92"/>
+<text x="1340" y="691" font-size="14" fill="#222222" text-anchor="middle">Correcciones</text>
+<text x="1340" y="709" font-size="14" fill="#222222" text-anchor="middle">[CSV]</text>
+<rect x="687.0" y="1092.0" width="385.9" height="22" fill="#ffffff" fill-opacity="0.92"/>
+<text x="880" y="1106" font-size="14" fill="#222222" text-anchor="middle">Modelo versionado [.joblib] · copia manual al publicar</text>
+<circle cx="600" cy="566" r="14" fill="#B3261E" stroke="#ffffff" stroke-width="2"/>
+<text x="600" y="571" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">1</text>
+<circle cx="744" cy="624" r="14" fill="#B3261E" stroke="#ffffff" stroke-width="2"/>
+<text x="744" y="629" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">5</text>
+<circle cx="440" cy="745" r="14" fill="#B3261E" stroke="#ffffff" stroke-width="2"/>
+<text x="440" y="750" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">2</text>
+<circle cx="895" cy="745" r="14" fill="#B3261E" stroke="#ffffff" stroke-width="2"/>
+<text x="895" y="750" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">4</text>
+<circle cx="650" cy="850" r="14" fill="#B3261E" stroke="#ffffff" stroke-width="2"/>
+<text x="650" y="855" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">3</text>
+<circle cx="1340" cy="751" r="14" fill="#B3261E" stroke="#ffffff" stroke-width="2"/>
+<text x="1340" y="756" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">A</text>
+<circle cx="1550" cy="970" r="14" fill="#B3261E" stroke="#ffffff" stroke-width="2"/>
+<text x="1550" y="975" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">B</text>
+<text x="760" y="1173" font-size="14" fill="#333" text-anchor="start">Flecha continua: flujo en línea (1 a 5 = recorrido de una consulta; 5 es la respuesta).</text>
+<text x="760" y="1203" font-size="14" fill="#333" text-anchor="start">Flecha punteada: flujo manual fuera de línea (A: exportar correcciones, B: publicar modelo).</text>
+<text x="760" y="1233" font-size="14" fill="#333" text-anchor="start">La dirección de la flecha indica quién inicia la comunicación (la respuesta 5 viaja por la conexión del paso 1).</text>
+<text x="760" y="1263" font-size="14" font-weight="bold" fill="#333" text-anchor="start">Los flujos en línea (1 a 5) no salen de la red local. Solo A y B cruzan la frontera, y son copias manuales de archivos.</text>
+<text x="760" y="1303" font-size="14" font-style="italic" fill="#555" text-anchor="start">Nivel 2 · versión 1.0 · 01/10/2026</text>
+<rect x="40" y="1156" width="38" height="24" rx="6" fill="#08427B" stroke="#052E56" stroke-width="2"/>
+<text x="90" y="1173" font-size="14" fill="#333">Persona (por rol)</text>
+<rect x="40" y="1186" width="38" height="24" rx="6" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="90" y="1203" font-size="14" fill="#333">Contenedor propio (se enciende y apaga por separado)</text>
+<rect x="40" y="1216" width="38" height="24" rx="6" fill="#438DD5" stroke="#2E6295" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="90" y="1233" font-size="14" fill="#333">Contenedor fuera de línea (solo en la PC del equipo)</text>
+<rect x="40" y="1246" width="38" height="24" rx="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="2"/>
+<text x="90" y="1263" font-size="14" fill="#333">Sistema externo (ya existe)</text>
+<rect x="40" y="1276" width="38" height="24" rx="6" fill="none" stroke="#444" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="90" y="1293" font-size="14" fill="#333">Frontera de despliegue: todo lo de adentro corre en la PC local</text>
+</svg>
