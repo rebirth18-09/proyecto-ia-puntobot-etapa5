@@ -35,7 +35,7 @@ La tecnología del sistema de escritorio y del inventario debe confirmarse con l
 | Integrante | Rol | Revisa |
 |---|---|---|
 | Ricardo José Romero Blandón | Arquitecto de contexto | Contratos de Josias |
-| Josias Beeri Zeledón Pastrán ([Mastergamer1309](https://github.com/Mastergamer1309)) | Arquitecto de contenedores | ADR de Pablo |
+| Beerí Josías Zeledón Pastrán ([Mastergamer1309](https://github.com/Mastergamer1309)) | Arquitecto de contenedores | ADR de Pablo |
 | Pablo Joshua Castro | Responsable del repositorio | Nivel 1 de Ricardo |
 
 ## Estructura
