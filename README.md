@@ -5,7 +5,7 @@ Arquitectura del asistente de consultas de inventario y ventas de Punto Farma. D
 ## Equipo
 
 - Ricardo José Romero Blandón
-- Josias Beeri Zeledón Pastrán
+- Beerí Josías Zeledón Pastrán
 - Pablo Joshua Castro
 
 Docente: Norman Ariel Gutiérrez Hernández.
